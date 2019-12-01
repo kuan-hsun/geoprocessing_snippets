@@ -1,0 +1,2 @@
+STFR, id, ci, mf, mt, cp, mr, cp, s1, s2, sf, st, cp, sr, cp, stfr
+STFR , id, ci, mf, mt, cp, mr, s1, s2, sf, st, sr, stfr
