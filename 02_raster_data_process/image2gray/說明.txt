@@ -1,0 +1,17 @@
+# 說明
+- 將彩色影像轉為灰階影像
+
+
+# 環境
+- 使用python3環境
+- 建立虛擬環境後安裝opencv (cv2)
+	- pip install cv2
+	- 或是至cv2下載路徑下載 whl 檔安裝置虛擬環境中
+
+
+python 32bit conda
+
+https://pypi.org/project/opencv-python/
+
+
+
