@@ -7,4 +7,4 @@ This repo contains different kinds of basic code snippets for geoprocessing task
 This repo is directly commit from personal code snippets, still need to optimize for general usage.
 
 ## Usage
-Most of this code are impletemented for ArcGIS 10.x based o
+Most of this code are impletemented for ArcGIS 10.x based on Python 2.7.
