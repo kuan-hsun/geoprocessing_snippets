@@ -1,18 +1,13 @@
 # -*- coding: utf-8 -*-
 import arcpy
 
-print "Hello ArcGIS"
-
-arcpy.env.workspace = r"D:\project_05198\data\temp"
-
-
+arcpy.env.workspace = r"your_working_path"
 arcpy.MakeFeatureLayer_management()
-
 
 fcList = arcpy.ListFeatureClasses()
 for fc in fcList:
     inFeatures = fc
-    outLocation = r"D:\project_05198\data\temp"
+    outLocation = r"your_working_path"
     arcpy.arcpy.FeatureClassToFeatureClass_conversion(fc, outLocation, fc)
 
 print "finished"
