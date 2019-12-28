@@ -1,13 +1,11 @@
 # -*- coding: utf-8 -*-
 import arcpy
 
-print "Hello ArcGIS"
-
-arcpy.env.workspace = r"D:\project_05198\data\01_里界與區界\台北市里界"
+arcpy.env.workspace = r"your_working_path"
 fcList = arcpy.ListFeatureClasses()
 for fc in fcList:
     inFeatures = fc
-    outLocation = r"D:\project_05198\data\temp"
+    outLocation = r"your_output_path"
     arcpy.arcpy.FeatureClassToFeatureClass_conversion(fc, outLocation, fc)
 
 print "finished"
